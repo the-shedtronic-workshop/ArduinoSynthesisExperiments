@@ -12,10 +12,10 @@ void loop() {
 
   analogWrite(speakerPin, 127);
 
-  delay(500); // wait for 500 milliseconds
+  delay(10); // wait for 500 milliseconds
 
   analogWrite(speakerPin, 0); // turn off the tone
 
-  delay(500); // wait for another 500 milliseconds
+  delay(20); // wait for another 500 milliseconds
 
 }
