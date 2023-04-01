@@ -2,14 +2,10 @@
 
 
 int speakerPin = 9; // connect speaker to digital pin 9
-
-int NOTE_C4;
-
-int NOTE_G3;
-
-int NOTE_A3;
-
-int NOTE_B3;
+int NOTE_C4 = 262; // frequency of C4 note (in Hz)
+int NOTE_G3 = 196; // frequency of G3 note (in Hz)
+int NOTE_A3 = 220; // frequency of A3 note (in Hz)
+int NOTE_B3 = 247; // frequency of B3 note (in Hz)
 
 
 
